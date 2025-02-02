@@ -1,0 +1,58 @@
+body
+{
+    background-color: rgb(1,32,63);
+}
+.green button
+{
+    background-color: green;
+}
+.red button
+{
+    background-color: red;
+
+}
+.yellow button
+{
+    background-color: yellow;
+}
+.blue button
+{
+    background-color: blue;
+}
+.container
+{
+    display: grid;
+    grid-template-columns: 250px 250px;
+    grid-template-rows: 250px 250px;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+h1
+{
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+    font-size: 3rem;
+}
+button
+{
+    border: 10px solid black;
+    border-radius: 50px;
+    height: 100%;
+    width: 100%;
+}
+
+.pressed
+{
+    box-shadow: 0 3px 4px 0 gray;
+    opacity: 0.5;
+}
+
+.game-over
+{
+    background-color: red;
+    opacity: 0.8;
+}
